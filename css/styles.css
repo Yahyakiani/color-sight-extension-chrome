@@ -1,0 +1,45 @@
+body {
+    background-color: #222;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  label {
+    display: block;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  select {
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: #444;
+    color: #ddd;
+    border: none;
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+  }
+  
+  button {
+    font-size: 0.83rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #444;
+    color: #ddd;
+    border: none;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  

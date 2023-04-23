@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "ColorSight",
+    "version": "1.0",
+    "description": "Adjust colors on web pages to accommodate different types of colorblindness.",
+    "icons": {
+      "16": "images/cight16.png",
+      "48": "images/cight48.png",
+      "128": "images/cight128.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/cight16.png",
+        "48": "images/cight48.png",
+        "128": "images/cight128.png"
+      }
+    },
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
