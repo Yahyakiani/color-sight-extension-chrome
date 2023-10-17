@@ -1,4 +1,4 @@
-# Colorblind Mode Chrome Extension
+# Colorblind Mode Chrome Extension (ColorSight)
 
 The Colorblind Mode Chrome Extension adjusts colors on web pages to accommodate different types of color blindness. This extension aims to make the internet a more inclusive place for people with color blindness, a condition affecting approximately 1 in 12 men and 1 in 200 women worldwide.
 How it works
